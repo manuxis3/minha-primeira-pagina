@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+	<meta charset="UTF-8">
+<title> Minha Primeira Pagina</title>
+<link rel="stylesheet" href="/frontend/CSS/style.css">
+
+</head>
+<body>
+	<h1>Olá, eu sou a Manoela</h1>
+	<h2> Sobre mim:</h2>
+	<p>Estudo Análise e Desenvolvimento de Sistemas e estou aprendendo HTML.</p>
+
+	<h2>O que eu gosto</h2>
+	<p>Música, futebol e vídeogames.</p>
+	<h2>Onde eu estudos</h2>
+	<p><a href="https://www.newtonpaiva.com.br">
+		Centro Universitário Newton Paiva</a></p>
+
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguYSfuaABDFak3qLk0Z5vYoAMGQWxNtnW5ScW4RJ5YEvfy9ZWNp70Sw&s=10"
+			alt="Foto do campus" width="400">
+	<nav>
+		<ul>
+			<li><a href="#sobre">Sobre mim</a></li>
+			<li><a href="#gostos">Eu gosto de passar meu tempo jogando Online</a></li>
+			<li><a href="#contato">Contato</a></li>
+		</ul>
+	</nav>
+	<section id="gostos">
+		<h2>O que eu gosto</h2>
+
+		<h3>Minhas três séries favoritas</h3>
+		<ol>
+			<li>13 Reasons Why</li>
+			<li>O mentalista</li>
+			<li>Everything Suck's</li>
+		</ol>
+	</section>
+	<section id="dados">
+		<h2>Meus horários</h2>
+		<table cellspacing="10">
+			<caption> <strong>Aulas do semestre</strong></caption>
+			<thead>
+				<tr>
+					<th scope="col">Dias</th>
+					<th scope="col">Disciplinas</th>
+					<th scope="col">Sala</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Segunda-Feira</td>
+					<td>Introdução a programação de computadores</td>
+					<td>501</td>
+				</tr>
+				<tr>
+					<td>Terça-Feira</td>
+					<td>Desenvolvimento web em html5, css, java e php</td>
+					<td>701</td>
+				</tr>
+				<tr>
+					<td>Quarta-Feira</td>
+					<td>Sistemas Operacionais</td>
+					<td>704</td>
+				</tr>
+				<tr>
+					<td>Quinta-Feira</td>
+					<td>Arquitetura de Computadores</td>
+					<td>501</td>
+				</tr>
+				<tr>
+					<td>Sexta-Feira</td>
+					<td>Banco de Dados</td>
+					<td>701</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section id="contato">
+		<h2>Fale comigo</h2>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Seus dados</legend>
+				<div>
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome" required>
+				</div>
+				<div>
+					<label for="assunto">Assunto</label>
+					<select id="assunto" name="assunto"> ...  </select>
+				</div>
+			</fieldset>
+			<button type="submit">Enviar</button>
+		</form>
+	</section>
+</body>
+</html>
